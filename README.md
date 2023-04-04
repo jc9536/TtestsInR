@@ -10,7 +10,7 @@ Output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, echo = T, error=FALSE, message=FALSE}
+```r
 # Load packages
 library(tidyverse)
 ```
@@ -18,14 +18,14 @@ library(tidyverse)
 # Question 1 (10 points)
 A researcher wants to know if people on vacation, engage in an “inner dialogue” less than when working. The researcher starts by obtaining a sample of 10 individuals who are about to go on a week’s vacation and agree to note (on an app) each time they “hear” themselves mentally talking. Each person in the sample is asked to keep a log for the week. The daily average instances (based on the week) appears below. 
 
-```{r}
+```r
 # Instantiate dataset 
 sample1 = c(50, 40, 46, 49, 40, 58, 45, 47, 46, 43)
 ```
 
 ## 1. Complete a one-sample t-test where the population mean is 50. Make sure to select correctly between a one-sided and two-sided t-test given the hypothesis described in the prompt. (In R, you can specify ` alternative = ‘greater’ ` or ` alternative = ‘less’ `to run a one-sided t-test. It runs a two-sided t-test by default). (2 pts)
 
-```{r}
+```r
 # Running a one-sample 
 t.test(sample1, mu = 50, alternative='less')
 ```
@@ -48,7 +48,7 @@ The experiement can be adjusted to run a two-sided t-test by adjusting the hypot
 
 ## 6. Run the other type of t-test. How do the test values and interpretation of the test change? (2pts)
 
-```{r}
+```r
 # Running a two-sample t-test 
 t.test(sample1, mu = 50, alternative = "two.sided")
 ```
@@ -58,14 +58,14 @@ The t-value is the same as before ($-2.1583$), but the p-value is now $0.05923$.
 # Question 2 (15 points)
 From the experiment in (2), the researcher also obtains data from a second sample (of the same size) from individuals during a regular week of work. The daily average instances (based on a week of data) of inner dialogue appear below. The researcher wants to know if people on vacation engage in an “inner dialogue” less than when working.
 
-```{r}
+```r
 # Instantiate dataset
 sample2 <- c(53, 40, 51, 50, 43, 62, 49, 47, 51, 39)
 ```
 
 ## 1. Is the assumption of homogeneity met? Show how you determined this. (2 pts)
 
-```{r}
+```r
 # Create dataframe with both groups 
 data = data.frame(inner_dialogue = c(sample1, sample2),
                   group = c("vacation", "vacation", "vacation", "vacation", "vacation", "vacation",
@@ -86,7 +86,7 @@ Because the ratio of variances is below 3, our data meets the assumption of homo
 
 ## 2. Complete a two-sample independent t-test of your first dataset against the second. Make sure to run the appropriate type of test depending on your answer in Part 1. Also make sure to select correctly between a one-sided and two-sided t-test given the hypothesis described in the prompt. (In R, you can specify ` alternative = ‘greater’ ` or ` alternative = ‘less’ `to run a one-sided t-test. It runs a two-sided t-test by default). (3 pts)
 
-```{r}
+```r
 # Running a two-sample t-test 
 t.test(inner_dialogue ~ group, data=data, alternative = "less", var.equal=TRUE)
 ```
@@ -107,7 +107,7 @@ The experiment can be adjusted to run a two-sided t-test by adjusting the hypoth
 
 ## 7. Run the other type of t-test described in Part 6. How do the test values and interpretation of the test change? (2 pts)
 
-```{r}
+```r
 # Running a two-sample t-test 
 t.test(inner_dialogue ~ group, data=data, alternative = "two.sided", var.equal=TRUE)
 ```
@@ -123,7 +123,7 @@ Moreover, it is worth noting that when running a one-sided test, the p-value is 
 Redo the t-test above, but instead of a independent-samples t-test, compute the t-test as a paired samples t-test. Assume that the same people are measured during vacation and then again at a later time during a workweek.
 
 ## 1. Run the t-test. Run it as a two-sided t-test. (2 pts)
-```{r}
+```r
 # Run paired t-test 
 t.test(inner_dialogue ~ group, data=data, paired=TRUE)
 ```
