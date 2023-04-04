@@ -1,8 +1,9 @@
 # T-tests In R
-Advanced Psychological Statistics Assignment 3
-author: "Jaimie Chin"  
-date: "2023-04-04"  
-output: github_document  
+
+Advanced Psychological Statistics Assignment 3  
+Author: "Jaimie Chin"  
+Date: "2023-04-04"  
+Output: github_document  
 ---
 
 ```{r setup, include=FALSE}
