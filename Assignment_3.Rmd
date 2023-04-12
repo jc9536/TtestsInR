@@ -44,7 +44,7 @@ Furthermore, the t-value is a statistic that measures the difference between the
 ## 5. In Part 1, you determined that this was a one-sided or two-sided t-test. How could this experiment be adjusted so that you would run the other type of t-test? Specifically, what would the hypothesis be? (2 pts)
 In Part 1, a one-sided one-sample t-test was used to compare the group mean (10 individuals on vacation) to a standard value (50). This is because the researcher wants to know if people on vacation, engage in an “inner dialogue” *less* than when working. A one-sided test is appropriate in this case because a one-tailed test looks for an “increase” or “decrease” in the parameter whereas a two-tailed test looks for a “change” (could be increase or decrease) in the parameter.  
 
-The experiement can be adjusted to run a two-sided t-test by adjusting the hypothesis to consider whether there is any difference between the daily average of "inner dialogue" instances of participants on vacation than when working. The null hypothesis would be that the mean number of instances of "inner dialogue" is the same for those on vacation and when working. 
+The experiment can be adjusted to run a two-sided t-test by adjusting the hypothesis to consider whether there is any difference between the daily average of "inner dialogue" instances of participants on vacation than when working. The null hypothesis would be that the mean number of instances of "inner dialogue" is the same for those on vacation and when working. 
 
 ## 6. Run the other type of t-test. How do the test values and interpretation of the test change? (2pts)
 
@@ -104,7 +104,7 @@ Since the p-value of $0.2246$ is larger than the common significance level of $0
 ## 6. In Part 1, you determined that this was a one-sided or two-sided t-test. How could this experiment be adjusted so that you would run the other type of t-test? Specifically, what would the hypothesis be? (2 pts)
 In Part 1, a one-sided two-sample t-test was used to compare the group mean of 10 individuals on vacation to the group mean of 10 individuals during work. This is because the researcher wants to know if people on vacation, engage in an “inner dialogue” *less* than people who were working. A one-tailed t-test is appropriate in this case because a one-tailed test looks for an “increase” or “decrease” in the parameter whereas a two-tailed test looks for a “change” (could be increase or decrease) in the parameter.  
 
-The experiment can be adjusted to run a two-sided t-test by adjusting the hypothesis to consider whether there is any difference between the daily average of "inner dialogue" instances of participants on vacation compared to those who were working. The null hypothesis would be that the mean number of instances of "inner dialogue" is the same for those on vacation and thos who were working. 
+The experiment can be adjusted to run a two-sided t-test by adjusting the hypothesis to consider whether there is any difference between the daily average of "inner dialogue" instances of participants on vacation compared to those who were working. The null hypothesis would be that the mean number of instances of "inner dialogue" is the same for those on vacation and those who were working. 
 
 ## 7. Run the other type of t-test described in Part 6. How do the test values and interpretation of the test change? (2 pts)
 
