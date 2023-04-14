@@ -3,6 +3,99 @@ Assignment_3
 Jaimie Chin
 2023-04-04
 
+- <a href="#question-1-10-points" id="toc-question-1-10-points">Question 1
+  (10 points)</a>
+  - <a
+    href="#1-complete-a-one-sample-t-test-where-the-population-mean-is-50-make-sure-to-select-correctly-between-a-one-sided-and-two-sided-t-test-given-the-hypothesis-described-in-the-prompt-in-r-you-can-specify-alternative--greater-or-alternative--lessto-run-a-one-sided-t-test-it-runs-a-two-sided-t-test-by-default-2-pts"
+    id="toc-1-complete-a-one-sample-t-test-where-the-population-mean-is-50-make-sure-to-select-correctly-between-a-one-sided-and-two-sided-t-test-given-the-hypothesis-described-in-the-prompt-in-r-you-can-specify-alternative--greater-or-alternative--lessto-run-a-one-sided-t-test-it-runs-a-two-sided-t-test-by-default-2-pts">1.
+    Complete a one-sample t-test where the population mean is 50. Make sure
+    to select correctly between a one-sided and two-sided t-test given the
+    hypothesis described in the prompt. (In R, you can specify
+    <code>alternative = ‘greater’</code> or
+    <code>alternative = ‘less’</code>to run a one-sided t-test. It runs a
+    two-sided t-test by default). (2 pts)</a>
+  - <a href="#2-what-is-the-t-value-1-pt"
+    id="toc-2-what-is-the-t-value-1-pt">2. What is the t-value? (1 pt)</a>
+  - <a href="#3-what-is-the-p-value-1-pt"
+    id="toc-3-what-is-the-p-value-1-pt">3. What is the p-value? (1 pt)</a>
+  - <a href="#4-what-is-your-interpretation-of-the-test-2-pts"
+    id="toc-4-what-is-your-interpretation-of-the-test-2-pts">4. What is your
+    interpretation of the test? (2 pts)</a>
+  - <a
+    href="#5-in-part-1-you-determined-that-this-was-a-one-sided-or-two-sided-t-test-how-could-this-experiment-be-adjusted-so-that-you-would-run-the-other-type-of-t-test-specifically-what-would-the-hypothesis-be-2-pts"
+    id="toc-5-in-part-1-you-determined-that-this-was-a-one-sided-or-two-sided-t-test-how-could-this-experiment-be-adjusted-so-that-you-would-run-the-other-type-of-t-test-specifically-what-would-the-hypothesis-be-2-pts">5.
+    In Part 1, you determined that this was a one-sided or two-sided t-test.
+    How could this experiment be adjusted so that you would run the other
+    type of t-test? Specifically, what would the hypothesis be? (2 pts)</a>
+  - <a
+    href="#6-run-the-other-type-of-t-test-how-do-the-test-values-and-interpretation-of-the-test-change-2pts"
+    id="toc-6-run-the-other-type-of-t-test-how-do-the-test-values-and-interpretation-of-the-test-change-2pts">6.
+    Run the other type of t-test. How do the test values and interpretation
+    of the test change? (2pts)</a>
+- <a href="#question-2-15-points" id="toc-question-2-15-points">Question 2
+  (15 points)</a>
+  - <a
+    href="#1-is-the-assumption-of-homogeneity-met-show-how-you-determined-this-2-pts"
+    id="toc-1-is-the-assumption-of-homogeneity-met-show-how-you-determined-this-2-pts">1.
+    Is the assumption of homogeneity met? Show how you determined this. (2
+    pts)</a>
+  - <a
+    href="#2-complete-a-two-sample-independent-t-test-of-your-first-dataset-against-the-second-make-sure-to-run-the-appropriate-type-of-test-depending-on-your-answer-in-part-1-also-make-sure-to-select-correctly-between-a-one-sided-and-two-sided-t-test-given-the-hypothesis-described-in-the-prompt-in-r-you-can-specify-alternative--greater-or-alternative--lessto-run-a-one-sided-t-test-it-runs-a-two-sided-t-test-by-default-3-pts"
+    id="toc-2-complete-a-two-sample-independent-t-test-of-your-first-dataset-against-the-second-make-sure-to-run-the-appropriate-type-of-test-depending-on-your-answer-in-part-1-also-make-sure-to-select-correctly-between-a-one-sided-and-two-sided-t-test-given-the-hypothesis-described-in-the-prompt-in-r-you-can-specify-alternative--greater-or-alternative--lessto-run-a-one-sided-t-test-it-runs-a-two-sided-t-test-by-default-3-pts">2.
+    Complete a two-sample independent t-test of your first dataset against
+    the second. Make sure to run the appropriate type of test depending on
+    your answer in Part 1. Also make sure to select correctly between a
+    one-sided and two-sided t-test given the hypothesis described in the
+    prompt. (In R, you can specify <code>alternative = ‘greater’</code> or
+    <code>alternative = ‘less’</code>to run a one-sided t-test. It runs a
+    two-sided t-test by default). (3 pts)</a>
+  - <a href="#3-what-is-the-t-value-1-pt"
+    id="toc-3-what-is-the-t-value-1-pt">3. What is the t-value? (1 pt)</a>
+  - <a href="#4-what-is-the-p-value-1-pt"
+    id="toc-4-what-is-the-p-value-1-pt">4. What is the p-value? (1 pt)</a>
+  - <a href="#5-what-is-your-interpretation-of-the-test-2-pts"
+    id="toc-5-what-is-your-interpretation-of-the-test-2-pts">5. What is your
+    interpretation of the test? (2 pts)</a>
+  - <a
+    href="#6-in-part-1-you-determined-that-this-was-a-one-sided-or-two-sided-t-test-how-could-this-experiment-be-adjusted-so-that-you-would-run-the-other-type-of-t-test-specifically-what-would-the-hypothesis-be-2-pts"
+    id="toc-6-in-part-1-you-determined-that-this-was-a-one-sided-or-two-sided-t-test-how-could-this-experiment-be-adjusted-so-that-you-would-run-the-other-type-of-t-test-specifically-what-would-the-hypothesis-be-2-pts">6.
+    In Part 1, you determined that this was a one-sided or two-sided t-test.
+    How could this experiment be adjusted so that you would run the other
+    type of t-test? Specifically, what would the hypothesis be? (2 pts)</a>
+  - <a
+    href="#7-run-the-other-type-of-t-test-described-in-part-6-how-do-the-test-values-and-interpretation-of-the-test-change-2-pts"
+    id="toc-7-run-the-other-type-of-t-test-described-in-part-6-how-do-the-test-values-and-interpretation-of-the-test-change-2-pts">7.
+    Run the other type of t-test described in Part 6. How do the test values
+    and interpretation of the test change? (2 pts)</a>
+  - <a
+    href="#8-in-psychological-experiments-we-typically-run-two-sided-t-tests-even-when-we-have-a-one-sided-hypothesis-eg-i-expect-that-an-intervention-would-improve-performance-why-is-it-standard-that-we-run-two-sided-tests-that-is-what-do-we-gain-by-running-a-two-sided-test-over-a-one-sided-one-2-pts"
+    id="toc-8-in-psychological-experiments-we-typically-run-two-sided-t-tests-even-when-we-have-a-one-sided-hypothesis-eg-i-expect-that-an-intervention-would-improve-performance-why-is-it-standard-that-we-run-two-sided-tests-that-is-what-do-we-gain-by-running-a-two-sided-test-over-a-one-sided-one-2-pts">8.
+    In psychological experiments, we typically run two-sided t-tests even
+    when we have a one sided hypothesis. E.g., I expect that an intervention
+    would improve performance. Why is it standard that we run two-sided
+    tests? That is, what do we gain by running a two-sided test over a
+    one-sided one? (2 pts)</a>
+- <a href="#question-3-10-points" id="toc-question-3-10-points">Question
+  3. (10. points)</a>
+  - <a href="#1-run-the-t-test-run-it-as-a-two-sided-t-test-2-pts"
+    id="toc-1-run-the-t-test-run-it-as-a-two-sided-t-test-2-pts">1. Run the
+    t-test. Run it as a two-sided t-test. (2 pts)</a>
+  - <a href="#2-what-is-the-t-value-1-pt-1"
+    id="toc-2-what-is-the-t-value-1-pt-1">2. What is the t-value? (1 pt)</a>
+  - <a href="#3-what-is-the-p-value-1-pt-1"
+    id="toc-3-what-is-the-p-value-1-pt-1">3. What is the p-value? (1 pt)</a>
+  - <a href="#4-what-is-your-interpretation-of-the-test-2-pts-1"
+    id="toc-4-what-is-your-interpretation-of-the-test-2-pts-1">4. What is
+    your interpretation of the test? (2 pts)</a>
+  - <a
+    href="#5-compared-to-the-two-sided-independent-samples-t-test-from-question-2-what-changed-2-pts"
+    id="toc-5-compared-to-the-two-sided-independent-samples-t-test-from-question-2-what-changed-2-pts">5.
+    Compared to the two-sided independent-samples t-test from Question 2,
+    what changed? (2 pts)</a>
+  - <a href="#6-what-explains-the-change-you-noted-in-part-5-2-pts"
+    id="toc-6-what-explains-the-change-you-noted-in-part-5-2-pts">6. What
+    explains the change you noted in Part 5? (2 pts)</a>
+
 ``` r
 # Load packages
 library(tidyverse)
