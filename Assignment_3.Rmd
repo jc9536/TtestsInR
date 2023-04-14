@@ -53,7 +53,7 @@ The experiment can be adjusted to run a two-sided t-test by adjusting the hypoth
 t.test(sample1, mu = 50, alternative = "two.sided")
 ```
 
-The t-value is the same as before ($-2.1583$), but the p-value is now $0.05923$. With a p-value greater than $0.05$, we still fail to reject the null hypothesis that there is a difference in mean between those on vacation and when working. This means that we do not have enough evidence to conclude that people on vacation engage in "inner dialogue" differently than when working.
+The t-value is the same as before ($-2.1583$), but the p-value is now $0.05923$. With a p-value greater than $0.05$, we fail to reject the null hypothesis that there is a difference in mean between those on vacation and when working. This means that we do not have enough evidence to conclude that people on vacation engage in "inner dialogue" differently than when working.
 
 # Question 2 (15 points)
 From the experiment in (2), the researcher also obtains data from a second sample (of the same size) from individuals during a regular week of work. The daily average instances (based on a week of data) of inner dialogue appear below. The researcher wants to know if people on vacation engage in an “inner dialogue” less than when working.
@@ -112,6 +112,7 @@ The experiment can be adjusted to run a two-sided t-test by adjusting the hypoth
 # Running a two-sample t-test 
 t.test(inner_dialogue ~ group, data=data, alternative = "two.sided", var.equal=TRUE)
 ```
+The t-value is the same as before ($-0.77378$), but the p-value is now $0.4491$, which is even higher than the p-value from one-sided two sample t-test. With a p-value greater than $0.05$, we still fail to reject the null hypothesis that there is a difference in mean between those on vacation and when working. This means that we do not have enough evidence to conclude that people on vacation engage in "inner dialogue" differently compared to people enaging in "inner dialogue" when working.
 
 ## 8. In psychological experiments, we typically run two-sided t-tests even when we have a one sided hypothesis. E.g., I expect that an intervention would improve performance. Why is it standard that we run two-sided tests? That is, what do we gain by running a two-sided test over a one-sided one? (2 pts)
 Running a two-sided t-test provides a more comprehensive analysis of the data as it tests for the possibility of both positive and negative effects of the intervention or treatment being studied. It is possible that an intervention could have a negative effect on performance, even if we expect it to improve performance. Therefore, by running a two-sided test, we are checking for both the possibility of an improvement and the possibility of a decrement in performance.

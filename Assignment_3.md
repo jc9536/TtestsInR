@@ -72,7 +72,7 @@ appropriate in this case because a one-tailed test looks for an
 “increase” or “decrease” in the parameter whereas a two-tailed test
 looks for a “change” (could be increase or decrease) in the parameter.
 
-The experiement can be adjusted to run a two-sided t-test by adjusting
+The experiment can be adjusted to run a two-sided t-test by adjusting
 the hypothesis to consider whether there is any difference between the
 daily average of “inner dialogue” instances of participants on vacation
 than when working. The null hypothesis would be that the mean number of
@@ -99,8 +99,8 @@ t.test(sample1, mu = 50, alternative = "two.sided")
     ##      46.4
 
 The t-value is the same as before ($-2.1583$), but the p-value is now
-$0.05923$. With a p-value greater than $0.05$, we still fail to reject
-the null hypothesis that there is a difference in mean between those on
+$0.05923$. With a p-value greater than $0.05$, we fail to reject the
+null hypothesis that there is a difference in mean between those on
 vacation and when working. This means that we do not have enough
 evidence to conclude that people on vacation engage in “inner dialogue”
 differently than when working.
@@ -207,7 +207,7 @@ the hypothesis to consider whether there is any difference between the
 daily average of “inner dialogue” instances of participants on vacation
 compared to those who were working. The null hypothesis would be that
 the mean number of instances of “inner dialogue” is the same for those
-on vacation and thos who were working.
+on vacation and those who were working.
 
 ## 7. Run the other type of t-test described in Part 6. How do the test values and interpretation of the test change? (2 pts)
 
@@ -227,6 +227,15 @@ t.test(inner_dialogue ~ group, data=data, alternative = "two.sided", var.equal=T
     ## sample estimates:
     ## mean in group vacation     mean in group work 
     ##                   46.4                   48.5
+
+The t-value is the same as before ($-0.77378$), but the p-value is now
+$0.4491$, which is even higher than the p-value from one-sided two
+sample t-test. With a p-value greater than $0.05$, we still fail to
+reject the null hypothesis that there is a difference in mean between
+those on vacation and when working. This means that we do not have
+enough evidence to conclude that people on vacation engage in “inner
+dialogue” differently compared to people enaging in “inner dialogue”
+when working.
 
 ## 8. In psychological experiments, we typically run two-sided t-tests even when we have a one sided hypothesis. E.g., I expect that an intervention would improve performance. Why is it standard that we run two-sided tests? That is, what do we gain by running a two-sided test over a one-sided one? (2 pts)
 
